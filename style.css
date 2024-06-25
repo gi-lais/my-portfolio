@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #ffffff;
+}
+
+html {
+  font-family: Inter, sans-serif;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: #b8b8b8;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.menu a:hover {
+  color: #ffffff;
+  font-weight: 600;
+  transform: scale(1.05);
+  transition: 10ms;
+}
+
+ul {
+  list-style: none;
+}
+
+nav {
+  margin: auto;
+  padding: 1.5rem 10rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  background: #6d2177;
+}
+
+.logo {
+  font-family: Teko;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.64px;
+  text-transform: uppercase;
+}
+
+.logo a {
+  color: #ffffff;
+}
+
+.menu {
+  display: flex;
+  gap: 1.5rem;
+  color: #fff2e780;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
+.contato {
+  color: #6d2177;
+  font-weight: 700;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  width: 120px;
+  height: 40px;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+}
+
+.contato:hover {
+  box-shadow: 0px 0px 8px #ffffffc9;
+  transform: scale(1.03);
+  transition: 5ms;
+}
