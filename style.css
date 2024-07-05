@@ -94,7 +94,7 @@ nav {
 
 section {
   margin: auto;
-  padding: 1.5rem 10rem;
+  padding: 2rem 10rem;
 }
 
 .apresentacao {
@@ -184,6 +184,7 @@ section {
   display: flex;
   justify-content: space-around;
   margin-top: 3.75rem;
+  gap: 1rem;
 }
 
 .img-port {
